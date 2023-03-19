@@ -11,7 +11,7 @@ USER = 'cisco' #Username
 PASS = 'cisco' #Password
 
 
-basic = HTTPBasicAuth(USER, PASS)
+basic = HTTPBasicAuth(USER, PASS) #Basic Authentication
 headers = {'Content-type': 'application/yang-data+json', 'Accept': 'application/yang-data+json'}
 
 
