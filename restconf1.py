@@ -19,5 +19,7 @@ x = requests.get("https://{h}:{p}/restconf/data/ietf-interfaces:interfaces/inter
 
 #print(x.status_code)
 #print (x.json())
-print(x.text)
+
+
+print(x.text) #Prints JSON output in text format 
 
