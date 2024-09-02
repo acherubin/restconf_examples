@@ -9,9 +9,10 @@ router_ip = '192.168.0.10'
 username = 'cisco'
 password = 'cisco'
 #interface_name = 'GigabitEthernet=1'
+#interface_name = 'GigabitEthernet1'
 
 # API endpoint for native interface JSON output
-api_endpoint = f"https://{router_ip}/restconf/data/Cisco-IOS-XE-native:native/version"
+api_endpoint = f"https://{router_ip}/restconf/data/Cisco-IOS-XE-native:native"
 
 # Request headers
 headers = {

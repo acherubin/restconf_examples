@@ -8,10 +8,10 @@ requests.packages.urllib3.disable_warnings()
 router_ip = '192.168.0.10'
 username = 'cisco'
 password = 'cisco'
-#interface_name = 'GigabitEthernet=1'
+interface_name = 'GigabitEthernet=1'
 
 # API endpoint for native interface JSON output
-api_endpoint = f"https://{router_ip}/restconf/data/Cisco-IOS-XE-native:native/version"
+api_endpoint = f"https://{router_ip}/restconf/data/Cisco-IOS-XE-native:native/interface/{interface_name}"
 
 # Request headers
 headers = {
